@@ -7,24 +7,38 @@ brew "python"
 brew "commitizen"
 # Command-line fuzzy finder written in Go
 brew "fzf"
-# GitHub command-line tool
-brew "gh"
+# GNU implementation of the famous stream editor
+brew "gnu-sed"
+# GNU Pretty Good Privacy (PGP) package
+brew "gnupg"
 # GNU grep, egrep and fgrep
 brew "grep"
 # Curl statistics made simple
 brew "httpstat"
-# Mac App Store command-line interface
-brew "mas"
+# User-friendly cURL replacement (command-line HTTP client)
+brew "httpie"
+# Curl statistics made simple
+brew "httpstat"
+# Lightweight and flexible command-line JSON processor
+brew "jq"
 # Ambitious Vim-fork focused on extensibility and agility
 brew "neovim"
+# Port scanning utility for large networks
+brew "nmap"
+# Framework for managing multi-language pre-commit hooks
+brew "pre-commit"
 # Search tool like grep and The Silver Searcher
 brew "ripgrep"
 # Powerful, clean, object-oriented scripting language
 brew "ruby"
 # Cross-shell prompt for astronauts
 brew "starship"
+# Simplified and community-driven man pages
+brew "tldr"
 # Terminal multiplexer
 brew "tmux"
+# Display directories as trees (with optional color/HTML output)
+brew "tree"
 # Internet file retriever
 brew "wget"
 # Shell extension to navigate your filesystem faster
@@ -35,12 +49,13 @@ brew "zsh-autosuggestions"
 brew "zsh-syntax-highlighting"
 # Web browser
 cask "firefox"
-# Developer targeted fonts with a high number of glyphs
-cask "font-hack-nerd-font"
-# Developer targeted fonts with a high number of glyphs
 cask "font-jetbrains-mono-nerd-font"
 # Web browser
 cask "google-chrome"
+# Keyboard customiser
+cask "karabiner-elements"
+# Tool to control external monitor brightness & volume
+cask "monitorcontrol"
 # Web browser focused on privacy and on minimizing tracking and fingerprinting
 cask "mullvad-browser"
 # Knowledge base that works on top of a local folder of plain text Markdown files
@@ -49,9 +64,11 @@ cask "obsidian"
 cask "pycharm"
 # Control your tools with a few keystrokes
 cask "raycast"
-# Code editor
-cask "visual-studio-code"
+# Music streaming service
+cask "spotify"
 # Rust-based terminal
 cask "warp"
-# Next-generation code editor
+# Multiplayer code editor
 cask "zed"
+# Manage your dotfiles
+brew Stow
