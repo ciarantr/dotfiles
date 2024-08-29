@@ -1,0 +1,6 @@
+# This is Git's per-user configuration file.
+[user]
+	name = Ciaran Toner
+	email = 58338331+ciaran-io@users.noreply.github.com
+[init]
+	defaultBranch = master

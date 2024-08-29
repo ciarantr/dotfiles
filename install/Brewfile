@@ -1,0 +1,57 @@
+tap "homebrew/bundle"
+# Clone of cat(1) with syntax highlighting and Git integration
+brew "bat"
+# Interpreted, interactive, object-oriented programming language
+brew "python"
+# Defines a standard way of committing rules and communicating it
+brew "commitizen"
+# Command-line fuzzy finder written in Go
+brew "fzf"
+# GitHub command-line tool
+brew "gh"
+# GNU grep, egrep and fgrep
+brew "grep"
+# Curl statistics made simple
+brew "httpstat"
+# Mac App Store command-line interface
+brew "mas"
+# Ambitious Vim-fork focused on extensibility and agility
+brew "neovim"
+# Search tool like grep and The Silver Searcher
+brew "ripgrep"
+# Powerful, clean, object-oriented scripting language
+brew "ruby"
+# Cross-shell prompt for astronauts
+brew "starship"
+# Terminal multiplexer
+brew "tmux"
+# Internet file retriever
+brew "wget"
+# Shell extension to navigate your filesystem faster
+brew "zoxide"
+# Fish-like fast/unobtrusive autosuggestions for zsh
+brew "zsh-autosuggestions"
+# Fish shell like syntax highlighting for zsh
+brew "zsh-syntax-highlighting"
+# Web browser
+cask "firefox"
+# Developer targeted fonts with a high number of glyphs
+cask "font-hack-nerd-font"
+# Developer targeted fonts with a high number of glyphs
+cask "font-jetbrains-mono-nerd-font"
+# Web browser
+cask "google-chrome"
+# Web browser focused on privacy and on minimizing tracking and fingerprinting
+cask "mullvad-browser"
+# Knowledge base that works on top of a local folder of plain text Markdown files
+cask "obsidian"
+# IDE for professional Python development
+cask "pycharm"
+# Control your tools with a few keystrokes
+cask "raycast"
+# Code editor
+cask "visual-studio-code"
+# Rust-based terminal
+cask "warp"
+# Next-generation code editor
+cask "zed"
