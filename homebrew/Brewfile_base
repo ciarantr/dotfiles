@@ -1,0 +1,115 @@
+# Brew taps
+tap "heroku/brew"
+tap "homebrew/bundle"
+tap "homebrew/cask"
+tap "homebrew/cask-drivers"
+tap "homebrew/cask-fonts"
+tap "homebrew/cask-versions"
+tap "homebrew/core"
+tap "homebrew/services"
+tap "mongodb/brew"
+
+# Cloudflare worker
+brew "cloudflare-wrangler"
+
+# Heroku
+brew "heroku/brew/heroku"
+
+# GitHub Cli
+brew "gh"
+
+# MacOs Apps installer
+brew "mas"
+
+# Meilisearch
+brew "meilisearch", restart_service: true
+
+# Databases
+brew "mongodb/brew/mongodb-community"
+brew "mysql", restart_service: true
+
+# Database tools
+cask "sequel-pro"
+
+# Programming languages
+brew "node"
+brew "node@16"
+brew "python@3.9"
+brew "ruby"
+
+# Productivity
+fantastical
+Karabiner-Elements
+keyboard-maestro
+
+# Package managers
+brew "pnpm"
+
+brew "smartmontools"
+brew "starship"
+
+
+# ZSH
+brew "zsh-autosuggestions"
+brew "zsh-syntax-highlighting"
+
+# Design apps
+cask "affinity-designer"
+cask "affinity-photo"
+cask "drawio"
+cask "figma"
+cask "ogdesign-eagle"
+
+#MacOs maintenance tools
+cask "cleanmymac"
+
+# Fonts
+cask "font-hack-nerd-font"
+cask "font-jetbrains-mono-nerd-font"
+
+# Image optimiser
+cask "imageoptim"
+brew "webp"
+
+# Terminal
+cask "iterm2"
+cask "fig"
+
+# Logitech devices
+cask "logitech-unifying"
+
+# Screen monitor control
+cask "monitorcontrol"
+
+# spotlight replacemnet
+cask "raycast"
+
+# communication
+cask "slack"
+
+# music
+cask "spotify"
+
+# Note taking
+cask "notion"
+cask "obsidian"
+
+# Code editors
+cask "sublime-text"
+cask "visual-studio-code-insiders"
+brew "neovim"
+
+# API testing tools
+cask "insomnia"
+
+# Browsers
+cask "firefox"
+cask "firefox-developer-edition"
+cask "google-chrome-dev"
+
+# apple apps
+mas "Craft", id: 1487937127
+mas "Twitter", id: 1482454543
+mas "Numbers", id: 409203825
+mas "Pages", id: 409201541
+mas "Things 3", id: 904280696

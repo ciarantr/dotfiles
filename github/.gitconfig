@@ -1,0 +1,13 @@
+# This is Git's per-user configuration file.
+[user]
+	name = Ciaran Toner
+	email = 58338331+ciarantr@users.noreply.github.com
+	signingkey = 19F5250C217D20DB
+[init]
+	defaultBranch = main
+[core]
+	excludesfile = /Users/ciaran/.gitignore
+[commit]
+	gpgsign = true
+[gpg]
+	program = gpg

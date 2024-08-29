@@ -1,0 +1,157 @@
+tap "heroku/brew"
+tap "homebrew/bundle"
+tap "homebrew/cask"
+tap "homebrew/cask-drivers"
+tap "homebrew/cask-fonts"
+tap "homebrew/cask-versions"
+tap "homebrew/core"
+tap "homebrew/services"
+tap "mongodb/brew"
+# Clone of cat(1) with syntax highlighting and Git integration
+brew "bat"
+# CLI tool for Cloudflare Workers
+brew "cloudflare-wrangler"
+# Interpreted, interactive, object-oriented programming language
+brew "python@3.10"
+# Defines a standard way of committing rules and communicating it
+brew "commitizen"
+# Run arbitrary commands when files change
+brew "entr"
+# Modern replacement for 'ls'
+brew "exa"
+# Command-line fuzzy finder written in Go
+brew "fzf"
+# GitHub command-line tool
+brew "gh"
+# Quickly rewrite git repository history
+brew "git-filter-repo"
+# Curl statistics made simple
+brew "httpstat"
+# Mac App Store command-line interface
+brew "mas"
+# Ultra relevant, instant and typo-tolerant full-text search API
+brew "meilisearch"
+# Terminal-based visual file manager
+brew "midnight-commander"
+# Atlas CLI enables you to manage your MongoDB Atlas
+brew "mongodb-atlas-cli"
+# Open source relational database management system
+brew "mysql"
+# Ambitious Vim-fork focused on extensibility and agility
+brew "neovim"
+# Platform built on V8 to build network applications
+brew "node"
+# Netlify command-line tool
+brew "netlify-cli"
+# 📦🚀 Fast, disk space efficient package manager
+brew "pnpm"
+# Framework for managing multi-language pre-commit hooks
+brew "pre-commit"
+# Search tool like grep and The Silver Searcher
+brew "ripgrep"
+# Powerful, clean, object-oriented scripting language
+brew "ruby"
+# SMART hard drive monitoring
+brew "smartmontools"
+# Cross-shell prompt for astronauts
+brew "starship"
+# Text interface for Git repositories
+brew "tig"
+# Terminal multiplexer
+brew "tmux"
+# Image format providing lossless and lossy compression for web images
+brew "webp"
+# Internet file retriever
+brew "wget"
+# JavaScript package manager
+brew "yarn"
+# Shell extension to navigate your filesystem faster
+brew "zoxide"
+# Fish-like fast/unobtrusive autosuggestions for zsh
+brew "zsh-autosuggestions"
+# Fish shell like syntax highlighting for zsh
+brew "zsh-syntax-highlighting"
+# Everything you need to get started with Heroku
+brew "heroku/brew/heroku"
+# High-performance, schema-free, document-oriented database
+brew "mongodb/brew/mongodb-community"
+# Professional graphic design software
+cask "affinity-designer"
+# Professional image editing software
+cask "affinity-photo"
+# Automatic tiling window manager similar to xmonad
+cask "amethyst"
+# E-books management software
+cask "calibre4"
+# Draw.io is free online diagram software
+cask "drawio"
+# Calendar software
+cask "fantastical"
+# Reimagine your terminal
+cask "fig"
+# Collaborative team software
+cask "figma"
+# Web browser
+cask "firefox"
+# Web browser
+cask "firefox-developer-edition"
+# Developer targeted fonts with a high number of glyphs
+cask "font-hack-nerd-font"
+# Developer targeted fonts with a high number of glyphs
+cask "font-jetbrains-mono-nerd-font"
+cask "font-space-mono"
+cask "font-space-mono-nerd-font"
+# Web browser
+cask "google-chrome-dev"
+# Tool to optimize images to a smaller size
+cask "imageoptim"
+# HTTP and GraphQL Client
+cask "insomnia"
+# Terminal emulator as alternative to Apple's Terminal app
+cask "iterm2"
+# Keyboard customizer
+cask "karabiner-elements"
+# Automation software
+cask "keyboard-maestro"
+# App to manage software development and track bugs
+cask "linear-linear"
+# Software for Logitech devices
+cask "logi-options-plus"
+# Utility for pairing devices with Unifying receivers
+cask "logitech-unifying"
+# Explore and manipulate your MongoDB data
+cask "mongodb-compass"
+# Tool to control external monitor brightness & volume
+cask "monitorcontrol"
+# Knowledge base that works on top of a local folder of plain text Markdown files
+cask "obsidian"
+# Organize all your reference images in one place
+cask "ogdesign-eagle"
+# Collaboration platform for API development
+cask "postman"
+# Control your tools with a few keystrokes
+cask "raycast"
+# Modified browser that helps in responsive web development
+cask "responsively"
+# Emoji picker optimized for blind people
+cask "rocket"
+# MySQL/MariaDB database management platform
+cask "sequel-pro"
+# Team communication and collaboration software
+cask "slack"
+# Music streaming service
+cask "spotify"
+# Text editor for code, markup and prose
+cask "sublime-text"
+# Open-source code editor
+cask "visual-studio-code"
+# Code editor
+cask "visual-studio-code-insiders"
+# Rust-based terminal
+cask "warp"
+mas "Craft", id: 1487937127
+mas "KeyKey", id: 1035137927
+mas "Numbers", id: 409203825
+mas "Pages", id: 409201541
+mas "Things", id: 904280696
+mas "Twitter", id: 1482454543
